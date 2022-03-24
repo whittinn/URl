@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C178B0C27EC37ED004BD350 /* URl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URl.entitlements; sourceTree = "<group>"; };
 		8C94834D27EBBE8E0005F8AD /* URl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C94835027EBBE8E0005F8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C94835227EBBE8E0005F8AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		8C94834F27EBBE8E0005F8AD /* URl */ = {
 			isa = PBXGroup;
 			children = (
+				8C178B0C27EC37ED004BD350 /* URl.entitlements */,
 				8C94835027EBBE8E0005F8AD /* AppDelegate.swift */,
 				8C94835227EBBE8E0005F8AD /* SceneDelegate.swift */,
 				8C94835427EBBE8E0005F8AD /* ViewController.swift */,
@@ -443,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = URl/URl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CRPB5AHSY2;
@@ -471,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = URl/URl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CRPB5AHSY2;
