@@ -65,6 +65,12 @@ class APIHandler {
        func set(arr:[Album]){
             self.array = arr
         }
+        
+        func getArraytitles(index:Int)->String{
+            return self.array?[index].title ?? ""
+        }
+        
+       
     }
 
 
